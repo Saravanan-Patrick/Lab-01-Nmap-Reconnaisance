@@ -83,3 +83,10 @@ The entire scan of 1000 ports completed in approximately 22 seconds. In a real S
 • How Windows Firewall affects scan results — FILTERED vs OPEN vs CLOSED
 • How to document findings as Indicators of Compromise (IOCs)
 • The importance of isolated lab environments for safe security testing
+
+
+## About Me
+I'm Saravanan — transitioning from a background in Food Technology into Cybersecurity with a focus on Security Operations Center (SOC) Analysis and Blue Team operations.
+My background in Food Technology taught me quality control, process monitoring, and systematic documentation — skills that translate directly into SOC work where attention to detail and structured investigation are critical.
+This lab documents my hands-on learning journey as I build real skills in threat detection, log analysis, network forensics, and incident response.
+
