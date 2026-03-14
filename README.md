@@ -90,3 +90,6 @@ I'm Saravanan — transitioning from a background in Food Technology into Cybers
 My background in Food Technology taught me quality control, process monitoring, and systematic documentation — skills that translate directly into SOC work where attention to detail and structured investigation are critical.
 This lab documents my hands-on learning journey as I build real skills in threat detection, log analysis, network forensics, and incident response.
 
+
+## "The best way to learn cybersecurity is to break things in a safe environment and understand why they broke."
+⭐ If this lab helped you, give the repo a star!
