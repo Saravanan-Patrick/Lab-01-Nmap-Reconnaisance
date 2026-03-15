@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Sat Mar 14 06:56:34 2026 as: /usr/lib/nmap/nmap --privileged -sV -oN nmap-scan-results.txt 192.168.20.10
+Nmap scan report for 192.168.20.10
+Host is up (0.0013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 00:0C:29:FD:99:7A (VMware)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 14 06:56:55 2026 -- 1 IP address (1 host up) scanned in 21.45 seconds
