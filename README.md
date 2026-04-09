@@ -56,15 +56,16 @@ Wireshark was running on the Kali machine during the Nmap scan, capturing all tr
 | MS Browser | Microsoft Windows Browser Protocol | Windows network neighborhood traffic |
 
 ## Indicators of Compromise (IOCs)
-IOC                                      Details
-Source IP                  192.168.20.11 (Kali Linux — Attacker)
-Target IP                  192.168.20.10 (Windows 10 — Defender)
-Scan Type                  TCP SYN Service Version Detection (-sV)
-Ports Targeted             Top 1000 TCP ports
-Date / Time                2026-03-14 at 06:48 EDT
-Scan Duration              ~22 seconds
-Tool Identified            Nmap 7.95 (visible in packet headers)
-Packets Generated          2,248 packets captured
+| IOC | Details |
+| ---- | ------- |
+| Source IP | 192.168.20.11 (Kali Linux — Attacker) |
+| Target IP | 192.168.20.10 (Windows 10 — Defender) |
+| Scan Type | TCP SYN Service Version Detection (-sV) |
+| Ports Targeted | Top 1000 TCP ports |
+| Date / Time | 2026-03-14 at 06:48 EDT |
+| Scan Duration | ~22 seconds |
+| Tool Identified | Nmap 7.95 (visible in packet headers) |
+| Packets Generated | 2,248 packets captured |
 
 ## Security Observations
 ## Port 445 (SMB) — High Risk
