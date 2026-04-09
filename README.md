@@ -3,7 +3,9 @@
 ## Lab 01 — Network Reconnaissance with Nmap
 ## Objective
 Simulate how an attacker performs network reconnaissance against a Windows target, and document the findings the way a SOC analyst would — identifying open ports, exposed services, and potential attack vectors.
+
 ## Tools Used
+
 • Nmap 7.95 — Network scanner and port discovery
 • Wireshark — Packet capture and traffic analysis
 • Kali Linux Terminal — Attacker platform
@@ -31,8 +33,7 @@ nmap -sV 192.168.20.10 -oN nmap-scan-results.txt
 | 445/tcp | OPEN | microsoft-ds | SMB — Windows File Sharing |
 | 997 ports | CLOSED | — | TCP RST response received |
 
-## OS Detection Result: Windows — CPE: 
-cpe:/o:microsoft:windows
+## OS Detection Result: Windows — CPE: cpe:/o:microsoft:windows
 ⚠️ Note: First scan showed all 1000 ports as FILTERED because Windows Firewall was active. After disabling the firewall, the 3 ports above became visible. This demonstrates the effectiveness of host-based firewalls.
 
 ## Detection — Defender Side (Wireshark Analysis)
