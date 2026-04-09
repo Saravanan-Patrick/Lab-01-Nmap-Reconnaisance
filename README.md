@@ -36,13 +36,14 @@ nmap -sV 192.168.20.10 -oN nmap-scan-results.txt
 
 ## Detection — Defender Side (Wireshark Analysis)
 Wireshark was running on the Kali machine during the Nmap scan, capturing all traffic on the eth0 interface in real time.
-Metric                                     Value
-Total Packets Captured                 2,248 packets
-Packets Dropped                           0 (0.0%)
-Capture Interface                           eth0
-Capture File                     wireshark_eth05WIAM3.pcapng
-Source IP (Attacker)                    192.168.20.11
-Destination IP (Target)                 192.168.20.10
+| Metric | Value |
+| ------ | ----- |
+| Total Packets Captured | 2,248 packets |
+| Packets Dropped | 0 (0.0%) |
+| Capture Interface | eth0 |
+| Capture File | wireshark_eth05WIAM3.pcapng |
+| Source IP (Attacker) | 192.168.20.11 |
+| Destination IP (Target) | 192.168.20.10 |
 
 ## Key Protocol Observations
 Protocol                                              Observation                                                 Significance
