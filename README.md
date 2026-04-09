@@ -24,11 +24,12 @@ Export scan output for documentation and GitHub upload:
 nmap -sV 192.168.20.10 -oN nmap-scan-results.txt
 
 ## Nmap Findings
-Port                                   State                              Service                                                       Version / Info
-135/tcp                                OPEN                                msrpc                                                     Microsoft Windows RPC
-139/tcp                                OPEN                             netbios-ssn                                              Microsoft Windows NetBIOS-SSN
-445/tcp                                OPEN                              microsoft-ds                                              SMB — Windows File Sharing
-997 ports                             CLOSED                                 —                                                      TCP RST response received
+| Port | State | Service | Version / Info |
+| ---- | ----- | ------- | ------------ |
+| 135/tcp | OPEN | msrpc | Microsoft Windows RPC |
+| 139/tcp | OPEN | netbios-ssn | Microsoft Windows NetBIOS-SSN |
+| 445/tcp | OPEN | microsoft-ds | SMB — Windows File Sharing |
+| 997 ports | CLOSED | — | TCP RST response received |
 
 ## OS Detection Result: Windows — CPE: cpe:/o:microsoft:windows
 ⚠️ Note: First scan showed all 1000 ports as FILTERED because Windows Firewall was active. After disabling the firewall, the 3 ports above became visible. This demonstrates the effectiveness of host-based firewalls.
