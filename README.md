@@ -47,12 +47,13 @@ Wireshark was running on the Kali machine during the Nmap scan, capturing all tr
 | Destination IP (Target) | 192.168.20.10 |
 
 ## Key Protocol Observations
-Protocol                                              Observation                                                 Significance
-TCP SYN                              Kali sending SYN packets to all 1000 ports sequentially        Classic port scan pattern — triggers IDS alerts
-TCP RST/ACK                          Windows responding to closed ports                                       Confirms port states
-SMB                                  Server Message Block traffic on port 445                           File sharing protocol — high value target
-NBSS                                 NetBIOS Session Service activity                                    Windows network discovery traffic
-MS Browser                           Microsoft Windows Browser Protocol                                   Windows network neighborhood traffic
+| Protocol | Observation | Significance |
+| ------- | ----------- | ------------- |
+| TCP SYN | Kali sending SYN packets to all 1000 ports sequentially | Classic port scan pattern — triggers IDS alerts |
+| TCP RST/ACK | Windows responding to closed ports | Confirms port states |
+| SMB | Server Message Block traffic on port 445 | File sharing protocol — high value target |
+| NBSS | NetBIOS Session Service activity | Windows network discovery traffic |
+| MS Browser | Microsoft Windows Browser Protocol | Windows network neighborhood traffic |
 
 ## Indicators of Compromise (IOCs)
 IOC                                      Details
