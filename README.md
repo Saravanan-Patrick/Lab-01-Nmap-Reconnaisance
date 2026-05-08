@@ -76,7 +76,7 @@ Wireshark was running on the Kali machine during the Nmap scan, capturing all tr
 Port 445 runs the SMB (Server Message Block) protocol used for Windows file sharing. This is the exact port exploited by the WannaCry ransomware in 2017, which infected over 200,000 systems worldwide. In a production environment, this port should be blocked at the perimeter firewall or closely monitored via SIEM rules.
 
 ## Port 135 (RPC) — Lateral Movement Risk
-Port 135 runs Microsoft RPC (Remote Procedure Call), commonly used by attackers for lateral movement within enterprise networks. It should be restricted to trusted hosts only. 
+Port 135 runs Microsoft RPC (Remote Procedure Call), commonly used by attackers for lateral movement within enterprise networks. It should be restricted to trusted hosts only.
 
 ## Windows Firewall Effectiveness
 When Windows Firewall was enabled, all 1000 scanned ports appeared as FILTERED — meaning the firewall successfully blocked Nmap from fingerprinting the system. This is a strong demonstration that host-based firewalls are an effective first line of defense.
