@@ -36,6 +36,7 @@ nmap -sV 192.168.20.10 -oN nmap-scan-results.txt
 ## OS Detection Result:
 
 Windows — CPE: cpe:/o:microsoft:windows
+
 ⚠️ Note: First scan showed all 1000 ports as FILTERED because Windows Firewall was active. After disabling the firewall, the 3 ports above became visible. This demonstrates the effectiveness of host-based firewalls.
 
 ## Detection — Defender Side (Wireshark Analysis)
