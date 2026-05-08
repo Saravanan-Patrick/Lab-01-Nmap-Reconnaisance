@@ -2,7 +2,7 @@
 
 ## Lab 01 — Network Reconnaissance with Nmap
 ## Objective
-Simulate how an attacker performs network reconnaissance against a Windows target, and document the findings the way a SOC analyst would — identifying open ports, exposed services, and potential attack vectors
+Simulate how an attacker performs network reconnaissance against a Windows target, and document the findings the way a SOC analyst would — identifying open ports, exposed services, and potential attack vectors.
 
 ## Tools Used
 
